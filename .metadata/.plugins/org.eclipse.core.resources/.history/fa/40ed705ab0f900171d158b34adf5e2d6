@@ -1,0 +1,17 @@
+package k;
+
+public class apple {
+
+	public static void main(String [] args) {
+		int buckey []= {4,5,6,7};
+		change(buckey);
+		for (int y :buckey) {
+			System.out.println(y);
+		}
+}
+	public static void change(int x[]) {
+		for (int counter=0;counter<x.length;counter++) {
+			x[counter]+=5;
+		}
+	}
+}
