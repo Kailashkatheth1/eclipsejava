@@ -1,0 +1,14 @@
+ package kai;
+
+public class apple {
+
+	public static void main(String[] args) {
+		double var=1.21;
+		System.out.print("hey ");
+		System.out.println("hello "+ var);
+		System.out.print("cow  ");
+		
+
+	}
+
+}
